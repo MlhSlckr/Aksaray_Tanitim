@@ -390,6 +390,8 @@
   .Menu {
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
     background: #1c2430;
   }
   .Menu .container {
@@ -404,8 +406,8 @@
             justify-content: space-between;
   }
   .Menu-logo {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
   .Menu-logo .logo {
     width: 100%;
