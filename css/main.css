@@ -388,7 +388,7 @@
 
 @media screen and (max-width: 992px) {
   .Menu {
-    padding: 20px;
+    padding: 10px;
     background: #1c2430;
   }
   .Menu .container {
@@ -403,8 +403,8 @@
             justify-content: space-between;
   }
   .Menu-logo {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
   .Menu-logo .logo {
     width: 100%;
