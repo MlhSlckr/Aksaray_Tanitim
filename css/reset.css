@@ -47,4 +47,8 @@ table {
   box-sizing: border-box;
 }
 
+li {
+  list-style-type: none;
+}
+
 /*# sourceMappingURL=reset.css.map */
