@@ -388,7 +388,8 @@
 
 @media screen and (max-width: 992px) {
   .Menu {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     background: #1c2430;
   }
   .Menu .container {
