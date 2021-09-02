@@ -253,16 +253,8 @@
 }
 
 .Footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   background-color: #1c2430;
+  overflow: hidden;
 }
 
 .Footer-items {
@@ -292,6 +284,22 @@
 .Footer .item-link:hover {
   text-shadow: 0px 0px 10px #fff;
   color: #fff;
+}
+
+.Footer-logo .logo {
+  width: 170px;
+}
+
+.Footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Tanitim {
@@ -750,6 +758,53 @@
     margin-bottom: 30px;
     margin-left: 20px;
     margin-right: 20px;
+  }
+  .Footer {
+    background-color: #1c2430;
+    overflow: hidden;
+  }
+  .Footer-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Footer .item {
+    padding: 40px 20px;
+  }
+  .Footer .item-link {
+    padding: 30px 10px;
+    color: #2180bb;
+    font-size: 20px;
+    -webkit-transition: 300ms all;
+    transition: 300ms all;
+  }
+  .Footer .item-link:hover {
+    text-shadow: 0px 0px 10px #fff;
+    color: #fff;
+  }
+  .Footer-logo .logo {
+    width: 170px;
+  }
+  .Footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
