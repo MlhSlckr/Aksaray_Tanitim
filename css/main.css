@@ -135,7 +135,7 @@
 
 .Mode {
   position: fixed;
-  bottom: 5%;
+  bottom: 3%;
   right: 3%;
   border-radius: 50%;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
@@ -791,20 +791,6 @@
   .Footer .item-link:hover {
     text-shadow: 0px 0px 10px #fff;
     color: #fff;
-  }
-  .Footer-logo .logo {
-    width: 170px;
-  }
-  .Footer .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
 }
 
