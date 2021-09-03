@@ -288,7 +288,7 @@ $main-color: #2180bb;
     flex-direction: column;
     width: 200px;
     height: 200px;
-
+    pointer-events: none;
     &:nth-child(2),
     &:nth-child(3),
     &:nth-child(4) {
