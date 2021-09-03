@@ -421,7 +421,6 @@
           flex-direction: column;
   width: 200px;
   height: 200px;
-  pointer-events: none;
 }
 
 .Kunye .item:nth-child(2), .Kunye .item:nth-child(3), .Kunye .item:nth-child(4) {
