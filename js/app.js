@@ -21,7 +21,7 @@ darkOn.addEventListener('click', () => {
   body.classList.toggle('dark');
   if (body.classList.contains('dark')) {
     moon.classList.add('Off');
-    sun.classList.add('On')
+    sun.classList.add('On');
     localStorage.setItem('dark', body.classList);
 
   } else {
@@ -34,4 +34,6 @@ darkOn.addEventListener('click', () => {
 
 if (localStorage.getItem('dark') != ' ') {
   body.classList.toggle(localStorage.getItem('dark'));
+  moon.classList.add('Off');
+  sun.classList.add('On');
 }
